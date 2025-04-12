@@ -64,8 +64,6 @@ Your response MUST be a JSON object structured exactly as follows:
   ]
 }
 
-Additionally, include a brief explanation outlining the rationale behind your resource selections and how these resources best meet the user's learning requirements.
-
 Make sure to use the exact dynamic inputs provided in the prompt to tailor your recommendations. The response should be complete and self-contained.
 
 For example, if given:
@@ -204,6 +202,4 @@ Your response should be formatted like:
     }
   ]
 }
-
-Followed by a brief explanation of your resource selection rationale.
 `;
