@@ -27,22 +27,18 @@ Your response MUST be a JSON object structured exactly as follows:
       "week": "Week 1",
       "youtubeVideos": [
         {
-          "title": "Video Title 1",
-          "url": "video_url_1"
+          "query": "video_query_1"
         },
         {
-          "title": "Video Title 2",
-          "url": "video_url_2"
+          "query": "video_query_2"
         }
       ],
       "learningArticles": [
         {
-          "title": "Article Title 1",
-          "url": "article_url_1"
+          "query": "article_query_1"
         },
         {
-          "title": "Article Title 2",
-          "url": "article_url_2"
+          "query": "article_query_2"
         }
       ]
     },
@@ -80,30 +76,30 @@ Your response should be formatted like:
       "week": "Week 1",
       "youtubeVideos": [
         {
-          "title": "Justin Guitar Beginner Course: First Guitar Lesson - E and A chords",
-          "url": "https://www.youtube.com/watch?v=BBz-Jyr23M4"
+          "query": "complete beginner guitar lesson fundamentals first day learning"
         },
         {
-          "title": "Andy Guitar: How to Play Guitar for Beginners - Lesson 1",
-          "url": "https://www.youtube.com/watch?v=4EVT2VlX0Fw"
+          "query": "guitar basics proper fretting hand technique and posture"
         },
         {
-          "title": "Marty Music: Proper Guitar Technique - Left and Right Hand",
-          "url": "https://www.youtube.com/watch?v=ZJyhenWBDlE"
+          "query": "guitar basics understanding tablature and chord diagrams"
+        },
+        {
+          "query": "basic guitar chords for beginners G C D Em Am"
         }
       ],
       "learningArticles": [
         {
-          "title": "Justin Guitar: The D Chord - Beginner Course",
-          "url": "https://www.justinguitar.com/guitar-lessons/the-d-chord-bc-112"
+          "query": "how to tune a guitar for beginners standard tuning EADGBE"
         },
         {
-          "title": "Guitar Player World: Guitar Chord Charts and Finger Placement",
-          "url": "https://www.guitarplayerworld.com/guitar-chord-charts-and-finger-placement/"
+          "query": "understanding guitar parts anatomy for beginners"
         },
         {
-          "title": "Justin Guitar: How to Read Chord Boxes",
-          "url": "https://www.justinguitar.com/guitar-lessons/how-to-read-chord-boxes-bc-108"
+          "query": "basic music theory for guitarists notes on the fretboard"
+        },
+        {
+          "query": "how to develop calluses for guitar playing beginners"
         }
       ]
     },
@@ -111,30 +107,30 @@ Your response should be formatted like:
       "week": "Week 2",
       "youtubeVideos": [
         {
-          "title": "Justin Guitar: Basic Chord Progressions for Beginners",
-          "url": "https://www.youtube.com/watch?v=M_ey9eFU1Hg"
+          "query": "basic guitar strumming patterns for beginners"
         },
         {
-          "title": "Andy Guitar: The Most Important Beginner Guitar Chord Progressions",
-          "url": "https://www.youtube.com/watch?v=V9lb7WwvRsk"
+          "query": "guitar chord transitions practice techniques for beginners"
         },
         {
-          "title": "Paul Davids: 5 Essential Finger Exercises for Guitar",
-          "url": "https://www.youtube.com/watch?v=B0vE6WJQzDQ"
+          "query": "beginner guitar first 5 songs to learn easy"
+        },
+        {
+          "query": "basic guitar scales for beginners pentatonic minor"
         }
       ],
       "learningArticles": [
         {
-          "title": "Justin Guitar: Rhythm Guitar Basics",
-          "url": "https://www.justinguitar.com/guitar-lessons/rhythm-guitar-bc-153"
+          "query": "how to read guitar chord charts effectively"
         },
         {
-          "title": "Fender: Understanding Guitar Chord Progressions",
-          "url": "https://www.fender.com/articles/how-to/understanding-guitar-chord-progressions"
+          "query": "developing finger independence guitar exercises"
         },
         {
-          "title": "Guitar World: Beginner Guitar Chords You Need to Know",
-          "url": "https://www.guitarworld.com/lessons/beginner-guitar-chords"
+          "query": "common beginner guitar mistakes to avoid"
+        },
+        {
+          "query": "basic rhythm concepts for guitar strumming"
         }
       ]
     },
@@ -142,30 +138,30 @@ Your response should be formatted like:
       "week": "Week 3",
       "youtubeVideos": [
         {
-          "title": "Marty Music: Barre Chord Tutorial",
-          "url": "https://www.youtube.com/watch?v=vE2klSxtMO8"
+          "query": "intermediate guitar chord progressions I IV V vi"
         },
         {
-          "title": "Justin Guitar: Barre Chords Made Easy",
-          "url": "https://www.youtube.com/watch?v=CXRMr6s6FM0"
+          "query": "barre chord techniques F and B major guitar"
         },
         {
-          "title": "Paul Davids: Pentatonic Scale Lesson",
-          "url": "https://www.youtube.com/watch?v=zBRFrV7J7yA"
+          "query": "guitar fingerpicking basics patterns for beginners"
+        },
+        {
+          "query": "power chords guitar technique rock songs"
         }
       ],
       "learningArticles": [
         {
-          "title": "Justin Guitar: Barre Chords Introduction",
-          "url": "https://www.justinguitar.com/guitar-lessons/barre-chords-bc-134"
+          "query": "understanding keys and chord families guitar theory"
         },
         {
-          "title": "Guitar World: How to Master Barre Chords",
-          "url": "https://www.guitarworld.com/lessons/how-to-master-barre-chords"
+          "query": "guitar practice routine structure for improvement"
         },
         {
-          "title": "Ultimate Guitar: A Comprehensive Guide to Reading Guitar Tablature",
-          "url": "https://www.ultimate-guitar.com/lessons/for_beginners/a_comprehensive_guide_to_reading_guitar_tablature.html"
+          "query": "using a metronome effectively for guitar practice"
+        },
+        {
+          "query": "seventh chords on guitar theory and application"
         }
       ]
     },
@@ -173,30 +169,30 @@ Your response should be formatted like:
       "week": "Week 4",
       "youtubeVideos": [
         {
-          "title": "Marty Music: Lead Guitar Basics",
-          "url": "https://www.youtube.com/watch?v=I-I3zCJVX2o"
+          "query": "intermediate guitar technique hammer-ons pull-offs"
         },
         {
-          "title": "Guitar Lessons 365: Major Scale Tutorial",
-          "url": "https://www.youtube.com/watch?v=6Jfk8ic3KVk"
+          "query": "guitar improvisation basics using pentatonic scales"
         },
         {
-          "title": "Paul Davids: Making Your Guitar Solos Sound Better",
-          "url": "https://www.youtube.com/watch?v=om3uwRLqNIc"
+          "query": "basic guitar riffs for intermediate players"
+        },
+        {
+          "query": "rhythm guitar techniques syncopation and muting"
         }
       ],
       "learningArticles": [
         {
-          "title": "Justin Guitar: Basic Improvisation",
-          "url": "https://www.justinguitar.com/guitar-lessons/basic-improvisation-im-141"
+          "query": "understanding the CAGED system for guitar"
         },
         {
-          "title": "Guitar World: How to Use Scales to Improvise",
-          "url": "https://www.guitarworld.com/lessons/how-to-use-scales-to-improvise"
+          "query": "intermediate guitar ear training exercises"
         },
         {
-          "title": "Songsterr: How To Read Guitar Tabs",
-          "url": "https://www.songsterr.com/a/wa/howToReadTab"
+          "query": "essential music theory for intermediate guitarists"
+        },
+        {
+          "query": "recording your guitar playing basics home setup"
         }
       ]
     }

@@ -1,8 +1,5 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { getCustomLearningPlanPrompt } from '../constants/prompt.js';
-import dotenv from 'dotenv';
-
-dotenv.config()
 
 export class AnthropicService {
   constructor() {
